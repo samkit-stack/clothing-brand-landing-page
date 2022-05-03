@@ -23,14 +23,18 @@ a{
 }
 .header .right-links{
     display: flex;
-    gap: 10px;
+    gap: 16px;
     margin-left: auto;
     color: #e5e7ebc0;
     font-size: 18px;
 }
+.header .right-links a:hover{
+    color: #F9FAF8;
+}
 .hero-area{
     display: flex;
-    padding: 64px 256px;
+    padding: 128px 256px;
+    padding-bottom: 100px;
     justify-content: center;
     align-items: center;
     gap: 64px;
@@ -40,9 +44,9 @@ a{
     flex: 1;
 }
 
-.hero-image{
+.hero-image img{
     width: 500px;
-    height: 200px;
+    height: 300px;
     background-color: #E5E7EB;
 }
 .hero-area .maintitle{
@@ -68,6 +72,34 @@ a{
     color: #F9FAF8;
     font-size: 16px;
     font-weight: bold;
+}
+#information-header-text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder ;
+    color: #1F2937;
+    margin: 64px 16px;
+}
+.brand-images{
+    display: flex;
+    margin: 1% 10%;
+    gap: 64px;
+}
+.brand-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.211) ;
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.brand-images img{
+    width: 250px;
+    height: 350px;
+    border-radius: 5%;
 }
 .plain-area{
     margin-bottom: 10000px;
